@@ -1,14 +1,29 @@
+.container {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.crumbs {
+    height: 100px;
+    text-align: center;
+}
+
 .crumbs ul {
     list-style: none;
+    height: 100%;
+}
+
+.crumbs ul li {
+    height: 30px;
+    display: inline-block;
 }
 
 .crumbs ul li a{
     float: left;
-    display: inline-block;
     margin-right: 30px;
-    height: 30px;
+    height: 100%;
     padding: 10px 20px 0 20px;
-    text-align: center;
     background-color: #3498db;
     color: #fff;
     text-decoration: none;
