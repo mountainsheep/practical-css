@@ -1,0 +1,37 @@
+.crumbs ul {
+    list-style: none;
+}
+
+.crumbs ul li a{
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+    height: 30px;
+    padding: 10px 20px 0 20px;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+.crumbs ul li a:before{
+    content: "";
+    border-top: 20px solid #3498db;
+    border-bottom: 20px solid #3498db;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.crumbs ul li a:after{
+    content: "";
+    border-left: 20px solid #3498db;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
