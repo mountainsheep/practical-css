@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>垂直居中</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            background-color: green;
+            text-align: center;
+        }
+
+        .p1 {
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="p1">
+            我想垂直居中
+        </div>
+    </div>
+
+</body>
+</html>
