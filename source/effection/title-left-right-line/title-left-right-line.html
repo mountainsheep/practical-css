@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>标题两边画线效果</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .p1 {
+            position: relative;
+            top: 50%;
+            font-size: 18px;
+            -webkit-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        .p1:before {
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            border-top: 1px solid #000;
+            left: 35px;
+            top: 15px;
+        }
+
+        .p1:after {
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            border-top: 1px solid #000;
+            right: 35px;
+            top: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="p1">
+        我是标题
+    </div>
+</div>
+
+</body>
+</html>
