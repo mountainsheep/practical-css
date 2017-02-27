@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>模糊文本</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            background-color: green;
+            text-align: center;
+        }
+
+        .p1 {
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            /* 主要是下边这段 */
+            color : transparent;
+            text-shadow: 0 0 5px rgba(0,0,0,.5);
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="p1">
+        我是想模糊的文本
+    </div>
+</div>
+
+</body>
+</html>
