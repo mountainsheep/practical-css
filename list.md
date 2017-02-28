@@ -22,3 +22,4 @@
 * [模糊文本](https://github.com/ucooling/practical-css/blob/master/source/effection/vague-text/vague-text.html)
 * [垂直居中](https://github.com/ucooling/practical-css/blob/master/source/effection/vertical-center/vertical-center.html)
 * [CSS实现title属性hover效果](https://github.com/ucooling/practical-css/blob/master/source/effection/title-hover/title-hover.html)
+* [CSS实现Slide Down Slide Up效果](https://github.com/ucooling/practical-css/blob/master/source/effection/slide-down-slide-up/slide-down-slide-up.html)
