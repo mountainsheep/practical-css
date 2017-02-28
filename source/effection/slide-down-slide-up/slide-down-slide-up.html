@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Slide Down Slide Up</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .main {
+            max-height: 180px;
+            margin: 0 auto;
+            width: 200px;
+            padding: 0 20px;
+            border-radius: 5px;
+            text-align: center;
+            overflow-y: hidden;
+            transition-property: all;
+            transition-duration: .5s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+            background-color: #f3f3f3;
+        }
+
+        .btn {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #ED4C4C;
+            width: 200px;
+            margin: 20px auto;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .btn:hover {
+            background-color: #D02C2C;
+        }
+
+        .btn:hover + .main {
+            max-height: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="btn">
+        Hover Me Close
+    </div>
+    <div class="main">
+        <p>红豆生南国，</p>
+        <p>春来发几枝。</p>
+        <p>愿君多采撷，</p>
+        <p>此物最相思。</p>
+    </div>
+</div>
+
+</body>
+</html>
